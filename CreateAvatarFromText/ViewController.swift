@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         setAvatar(fullName: "", imageUpload: UIImage(named: "myAvatar"))
     }
     
+    // Main handle function
     func setAvatar(fullName: String, imageUpload: UIImage?) {
         if let image = imageUpload {
             self.imageView = self.avartar.createAvartar(image: image)
