@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E852C66B267C31DC00049A8D /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C66A267C31DB00049A8D /* Avatar.swift */; };
+		E852C672267C341600049A8D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C671267C341600049A8D /* Response.swift */; };
 		E878C6F7267B4B3C007E967E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878C6F6267B4B3C007E967E /* AppDelegate.swift */; };
 		E878C6F9267B4B3C007E967E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878C6F8267B4B3C007E967E /* SceneDelegate.swift */; };
 		E878C6FB267B4B3C007E967E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878C6FA267B4B3C007E967E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E852C66A267C31DB00049A8D /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		E852C671267C341600049A8D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E878C6F3267B4B3C007E967E /* CreateAvatarFromText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateAvatarFromText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E878C6F6267B4B3C007E967E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E878C6F8267B4B3C007E967E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E852C66E267C332F00049A8D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E852C671267C341600049A8D /* Response.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E852C66F267C333600049A8D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				E852C66A267C31DB00049A8D /* Avatar.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
 		E878C6EA267B4B3C007E967E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +78,8 @@
 		E878C6F5267B4B3C007E967E /* CreateAvatarFromText */ = {
 			isa = PBXGroup;
 			children = (
+				E852C66F267C333600049A8D /* Control */,
+				E852C66E267C332F00049A8D /* Protocol */,
 				E878C6F6267B4B3C007E967E /* AppDelegate.swift */,
 				E878C6F8267B4B3C007E967E /* SceneDelegate.swift */,
 				E878C6FA267B4B3C007E967E /* ViewController.swift */,
@@ -143,6 +165,8 @@
 				E878C6FB267B4B3C007E967E /* ViewController.swift in Sources */,
 				E878C6F7267B4B3C007E967E /* AppDelegate.swift in Sources */,
 				E878C70F267B4BEB007E967E /* SwiftyAvatar.swift in Sources */,
+				E852C66B267C31DC00049A8D /* Avatar.swift in Sources */,
+				E852C672267C341600049A8D /* Response.swift in Sources */,
 				E878C6F9267B4B3C007E967E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
